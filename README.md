@@ -12,8 +12,8 @@ En Perú, 7 de cada 10 mujeres han pasado por violencia contra la mujer en algú
 En este repositorio se ha cargado la data (solo la parte pública, por acuerdos de confidencialidad) utilizada para el entrenamiento del modelo clasificador de niveles de propensión a la violencia contra la mujer.
 
 ### Cuál es el problema?
-![Ciclo de la Violencia contra la mujer] 
-(https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Ciclo_de_Violencia_Leonor_Walker.png)
+
+![Ciclo de la Violencia contra la mujer](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Ciclo_de_Violencia_Leonor_Walker.png))
 
 El Ciclo de la Violencia contra la mujer tiene tres fases: La primera es la *Acumulación de Tensión* hay discusiones,descontento, conflictos, él siempre está molesto, ella ajusta su comportamiento para evitar "provocar peleas". 
 
