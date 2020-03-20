@@ -54,3 +54,6 @@ Entonces...la pregunta es: ¿Podemos entrenar un algoritmo que ayude a identific
 
 ### El Algoritmo...
 
+A continuación se visualiza el diagrama de para la elaboración del algoritmo según las 5 etapas del desarrollo de un modelo de Machine Learning, se expondrá cada una y todo lo que implicó.
+
+![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Diagrama_Metodología.png)
