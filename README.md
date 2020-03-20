@@ -1,4 +1,4 @@
-![Aquí la descripción de la imagen por si no carga](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/recuperación_violencia_psicológica.png)
+![Superación de la Violencia Psicológica](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/recuperación_violencia_psicológica.png)
 
 #               "Detección automática de niveles de propensión a la violencia contra la mujer analizando expresiones escritas con técnicas de Natural Language Processing y Machine Learning"
 
@@ -12,10 +12,13 @@ En Perú, 7 de cada 10 mujeres han pasado por violencia contra la mujer en algú
 En este repositorio se ha cargado la data (solo la parte pública, por acuerdos de confidencialidad) utilizada para el entrenamiento del modelo clasificador de niveles de propensión a la violencia contra la mujer.
 
 ### Cuál es el problema?
-
-(https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/recuperación_violencia_psicológica.png)
+![Ciclo de la Violencia contra la mujer] 
+(https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Ciclo de Violencia Leonor Walker.png)
 
 El Ciclo de la Violencia contra la mujer tiene tres fases: La primera es la *Acumulación de Tensión* hay discusiones,descontento, conflictos, él siempre está molesto, ella ajusta su comportamiento para evitar "provocar peleas". 
+
 Sin embargo llegan a la segunda fase, la más traumática, el *Episodio Agudo de Violencia*, aquí él explota, la insulta, la humilla, la amenaza, incluso puede llegar a golpearla. Aquí ella intentará alejarse de él (es lo más natural), sin embargo es la fase 3 la que hace que sigan "dando vueltas" en este "círculo vicioso". 
+
 En la *Fase de "Luna de Miel"*, para evitar que ella lo deje, él le rogará su perdón, le jurará que él va a cambiar, que nunca pasará de nuevo, que lo que pasó fue algo aislado. Se portará como al comienzo de la relación con palabras bonitas y detalles, hará TODO lo necesario para que ella lo perdone y acepte quedarse con él. Lamentablemente esta fase no dura mucho y si ella acepta volver a una relación así sin buscar ayuda por el comportamiento de él, lo más probable es que empiecen a dar vueltas en el ciclo una y otra vez, acumulando tensión,explotando y volviendo a dar otra vuelta. 
+
 Lo peligroso de  dichas vueltas es que si una permanece iterando en el ciclo estos se vuelven cada vez más peligrosos (pasa del tipo de violencia psicológica a la física y/o sexual) y más cortos/frecuentes (si antes tomaba meses dar una vuelta completa, con el tiempo hasta se pueden dar varias vueltas en un día). Lo peor es que la víctima va normalizando este comportamiento, por los estereotipos de género, porque lo atribuyen a su caracter, hasta hay quien se hecha la culpa "por haberlo provocado".
