@@ -47,7 +47,10 @@ Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Pro
 
 ![Nivel4](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel4_Amenazas_Posesividad.png)
 
-Entonces, podemos entrenar un algoritmo que ayude a identificar la violencia contra la mujer (en su fase inicial, la psicológica) analizando los mensajes virtuales (chats) para que le dé aviso a la usuaria del riesgo que corre en su relación? 
+Los niveles están planteados para clasificar el avance de la violencia psicológica, como PREVENCIÓN, pues desde aquí se pasará a la violencia Física/Sexual, ya con consecuencias mucho más graves que incluso desembocan en feminicidios.
+Durante mucho tiempo el Machine Learning ha permitido clasificar/predecir con mucha certeza en tópicos como diagnóstico de cáncer en base a imágenes, proyecciones de precios en base a históricos, análisis de sentimientos para evaluar la satisfacción del cliente en base a sus comentarios. Sin embargo, raras veces se le ha utilizado para prevenir la Violencia contra la mujer. Ese es el objetivo de este algoritmo. Detectar a tiempo, para actuar a tiempo. 
+
+Entonces...la pregunta es: ¿Podemos entrenar un algoritmo que ayude a identificar niveles de propensión a la violencia contra la mujer (en su fase inicial, la psicológica) analizando los mensajes virtuales (chats) de su pareja para que le dé aviso a la usuaria del riesgo que corre en esa relación? 
 
 ### El Algoritmo...
-El uso del Machine Learning está cada vez extendido
+
