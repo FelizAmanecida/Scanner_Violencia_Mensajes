@@ -54,6 +54,16 @@ Entonces...la pregunta es: ¿Podemos entrenar un algoritmo que ayude a identific
 
 ### El Algoritmo...
 
-A continuación se visualiza el diagrama de para la elaboración del algoritmo según las 5 etapas del desarrollo de un modelo de Machine Learning, se expondrá cada una y todo lo que implicó.
+A continuación se visualiza el diagrama de para la elaboración del algoritmo según las 5 etapas del desarrollo de un modelo de Machine Learning, en la *Recolección de Datos* se expondrán las fuentes de datos y cuántos registros fueron extraídos de cada una. En el *Preprocesamiento* se identificará cada una de las técnicas (manueales y automáticas) que se le aplicó al texto base para "limpiarlo". 
+
+
+1. Recolección de datos
+2. Preprocesamiento
+3. Extracción de Características
+4. Modelado
+5. Evaluación del modelo
+
+
+
 
 ![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Diagrama_Metodología.png)
