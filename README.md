@@ -27,4 +27,27 @@ Solo hay una manera de salir del Ciclo de Violencia contra la mujer, y consta de
 1. Darse cuenta de la situación de peligro que una corre
 2. Tomar acción (buscar ayuda psicológica, apoyo legal, ponerse a salvo a una y a sus hijos)
 
-Hasta que no sea conciente del riego que corre, la víctima lo seguirá negando y avanzará en dar vueltas en el ciclo de la violencia. Es ahí donde entra el algoritmo...
+Hasta que no sea conciente del riego que corre, la víctima lo seguirá negando y avanzará en dar vueltas en el ciclo de la violencia. Y no se trata solo de darse cuenta, sino también ser consciente del nivel de riesgo que se corre en esa relación, de qué tan lejos ya ha ido. El primer tipo de violencia en manifestarse es la psicológica, pero ¿Cómo podemos medir el nivel de violencia contra la mujer si la violencia psicológica no es visible? o sí? Acaso no son los mensajes virtuales un buen indicador de lo que piensa y siente su pareja hacia ella? Habrá un patrón reconocible por un algoritmo de Machine Learning?
+
+Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes.Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también.
+
+#### NIVEL 1: CHANTAJE EMOCIONAL
+
+![Nivel1](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel1_Chantaje_Emocional.png)
+
+#### NIVEL 2: CELOS
+
+![Nivel2](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel2_Celos.png)
+
+#### NIVEL 3: INSULTOS/HUMILLACIONES
+
+![NIvel3](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel3_Insultos_Humillaciones.png)
+
+#### NIVEL 4: AMENAZAS/POSESIVIDAD
+
+![Nivel4](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel4_Amenazas_Posesividad.png)
+
+Entonces, podemos entrenar un algoritmo que ayude a identificar la violencia contra la mujer (en su fase inicial, la psicológica) analizando los mensajes virtuales (chats) para que le dé aviso a la usuaria del riesgo que corre en su relación? 
+
+### El Algoritmo...
+El uso del Machine Learning está cada vez extendido
