@@ -31,7 +31,7 @@ Solo hay una manera de salir del Ciclo de Violencia contra la mujer, y consta de
 
 Hasta que no sea conciente del riesgo que corre, la víctima lo seguirá negando y avanzará en dar vueltas en el ciclo de la violencia. Y no se trata solo de darse cuenta, sino también ser consciente del nivel de riesgo que se corre en esa relación, de qué tan lejos ya ha ido. El primer tipo de violencia en manifestarse es la psicológica, pero ¿Cómo podemos medir el nivel de violencia contra la mujer si la violencia psicológica no es visible? o sí? Acaso no son los mensajes virtuales un buen indicador de lo que piensa y siente su pareja hacia ella? Habrá un patrón reconocible por un algoritmo de Machine Learning?
 
-Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes.Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también.
+Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes. Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también.
 
 #### NIVEL 1: CHANTAJE EMOCIONAL
 
