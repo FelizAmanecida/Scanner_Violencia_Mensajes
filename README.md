@@ -65,13 +65,16 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 
 ### Etapas de desarrollo del modelo:
 
-###1. Recolección de datos
+### 1. Recolección de datos
 
 
-###2. Preprocesamiento
+![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Tabla_Fuentes_Dato.png)
 
 
-###3. Extracción de Características
-###4. Modelado
-###5. Evaluación del modelo
+### 2. Preprocesamiento
+
+
+### 3. Extracción de Características
+### 4. Modelado
+### 5. Evaluación del modelo
 
