@@ -71,6 +71,9 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 ![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Tabla_Fuentes_Dato.png)
 
 
+![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Cantidad_Datos_Por_Fuente.PNG)
+
+
 ### 2. Preprocesamiento
 
 
