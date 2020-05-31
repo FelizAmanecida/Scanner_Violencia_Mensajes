@@ -1,4 +1,4 @@
-![Superación de la Violencia Psicológica](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/recuperación_violencia_psicológica.png)
+![Superación de la Violencia Psicológica](images/recuperación_violencia_psicológica.png)
 
 #               Detección automática de niveles de propensión a la violencia contra la mujer analizando expresiones escritas con técnicas de Natural Language Processing y Machine Learning
 
