@@ -15,7 +15,7 @@ En este repositorio se ha cargado la data (solo la parte pública, por acuerdos 
 
 ### Cuál es el problema?
 
-![Ciclo de la Violencia contra la mujer](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Ciclo_de_Violencia_Leonor_Walker.png)
+![Ciclo de la Violencia contra la mujer](images/Ciclo_de_Violencia_Leonor_Walker.png)
 
 El Ciclo de la Violencia contra la mujer tiene tres fases: La primera es la **Acumulación de Tensión** hay discusiones,descontento, él tiene repentinos cambios de humor e intenta hacer (de una forma no amable) "que ella haga lo que debe", ella ajusta su comportamiento para "evitar  peleas", excusandolo por "haber tenido un mal día", atribuyendolo a su personalidad o hasta culpándose a ella misma.  
 
@@ -35,19 +35,19 @@ Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Pro
 
 #### NIVEL 1: CHANTAJE EMOCIONAL
 
-![Nivel1](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel1_Chantaje_Emocional.png)
+![Nivel1](images/Nivel1_Chantaje_Emocional.png)
 
 #### NIVEL 2: CELOS
 
-![Nivel2](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel2_Celos.png)
+![Nivel2](images/Nivel2_Celos.png)
 
 #### NIVEL 3: INSULTOS/HUMILLACIONES
 
-![NIvel3](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel3_Insultos_Humillaciones.png)
+![NIvel3](images/Nivel3_Insultos_Humillaciones.png)
 
 #### NIVEL 4: AMENAZAS/POSESIVIDAD
 
-![Nivel4](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Nivel4_Amenazas_Posesividad.png)
+![Nivel4](images/Nivel4_Amenazas_Posesividad.png)
 
 Los niveles están planteados para clasificar el avance de la violencia psicológica, como PREVENCIÓN, pues desde aquí se pasará a la violencia Física/Sexual, ya con consecuencias mucho más graves que incluso desembocan en feminicidios.
 Durante mucho tiempo el Machine Learning ha permitido clasificar/predecir con mucha certeza en tópicos como diagnóstico de cáncer en base a imágenes, proyecciones de precios en base a históricos, análisis de sentimientos para evaluar la satisfacción del cliente en base a sus comentarios. Sin embargo, raras veces se le ha utilizado para prevenir la Violencia contra la mujer. Ese es el objetivo de este algoritmo. Detectar a tiempo, para actuar a tiempo. 
@@ -60,7 +60,7 @@ A continuación se visualiza el diagrama de para la elaboración del algoritmo s
 En la fase de *Extracción de características* se exponen las técnicas a utilizar para representar el texto de los mensajes virtuales como vectores numéricos, donde se puedan probar algoritmos para clasificarlos en niveles. En la fase de *Modelado* se probarán distintos algoritmos para lograr la clasificación de la forma más certera, siendo esta medida en la fase de *Evaluación del modelo*. 
 
 
-![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Diagrama_Metodología.png)
+![Metodología](images/Diagrama_Metodología.png)
 
 
 ### Etapas de desarrollo del modelo:
@@ -68,10 +68,10 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 ### 1. Recolección de datos
 
 
-![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Tabla_Fuentes_Dato.png)
+![Metodología](images/Tabla_Fuentes_Dato.png)
 
 
-![Metodología](https://github.com/TerezaYallicoArias/Scanner_Violencia_Mensajes/blob/master/Cantidad_Datos_Por_Fuente.PNG)
+![Metodología](images/Cantidad_Datos_Por_Fuente.PNG)
 
 
 ### 2. Preprocesamiento
