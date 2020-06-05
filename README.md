@@ -4,7 +4,7 @@
 
 ## [Tesis de Pregrado - Universidad ESAN, Lima, Perú, 2020]
 #### Ingeniería en Tecnologías de la Información y Sistemas
-#### Tereza Yallico Arias & Junior Fabián Arteaga
+#### Tereza Yallico Arias, Neisser Ale Ale & Junior Fabián Arteaga
 
 
 En Perú, 7 de cada 10 mujeres han pasado por violencia contra la mujer en algún momento de su vida. La más común es la Violencia Psicológica, que es también la más difícil de detectar, pues no deja huellas visibles, pero avanza hacia comportamientos más peligrosos a través del concepto psicológico del Ciclo de Violencia, que hace que la víctima normalice ese comportamiento y solo se romperá cuando sea  consciente del riesgo que corre en esa relación y tome acción al respecto. Darle ese aviso es el objetivo del modelo de Machine Learning desarrollado, pues analizando las expresiones virtuales escritas de su pareja clasifica su nivel de propensión a la violencia en 5 niveles (Bajo riesgo, Chantaje emocional, Celos, Humillaciones/Insultos, Amenazas/Posesividad)  llamando a la toma de acción oportuna. Para ello, se recolectaron 5250 registros que fueron etiquetados en los 5 niveles, teniendo 5 fuentes de datos: Twitter, Webs de apoyo psicológico, Registro de casos de la Línea 100, Videos Relacionados y Narraciones de potenciales víctimas; estos fueron preprocesados con técnicas de Natural Language Processing. Tras 396 experimentos, se obtuvieron los mejores resultados con la combinación de TF-IDF y los modelos de Machine Learning Naive Bayes y Support Vector Machine, con un 0.9266 y 0.9215 de Accuracy, respectivamente.
@@ -75,6 +75,26 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 
 
 ### 2. Preprocesamiento
+
+### Proceso Manual
+
+![Ejemplo de registros etiquetados manualmente por nivel](images/Ejemplo_registro_por_clase.png)
+
+![Cambio de tiempo verbal de las expresiones escritas](images/Cambio_Tiempo_Verbal.png)
+
+
+
+### Proceso Automático
+
+![ ](images/Preproc_Autom_a.png)
+![ ](images/Preproc_Autom_b.png)
+![ ](images/Preproc_Autom_c.png)
+![ ](images/Preproc_Autom_d.png)
+![ ](images/Preproc_Autom_e.png)
+![ ](images/Preproc_Autom_f.png)
+![ ](images/Preproc_Autom_g.png)
+![ ](images/Preproc_Autom_h_i.png)
+![ ](images/Trigramizado.png)
 
 
 ### 3. Extracción de Características
