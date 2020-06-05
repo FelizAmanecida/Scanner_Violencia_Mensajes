@@ -95,8 +95,17 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 ![ ](images/Preproc_Autom_g.png)
 ![ ](images/Preproc_Autom_h_i.png)
 ![ ](images/Trigramizado.png)
+![ ](images/Limpieza_Stopwords.png)
 
 
 ### 3. Extracción de Características
+
+![ ](images/Vectorización_W2V.png)
+![ ](images/Vectorización_TFIDF.png)
+
 ### 4. Modelado
+
+![ ](images/Modelado.png)
+
 ### 5. Evaluación del modelo
+![ ](images/Resumen_resultados.png)
