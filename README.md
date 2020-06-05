@@ -100,12 +100,12 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 
 ### 3. Extracción de Características
 
-![ ](images/Vectorización_W2V.png)
-![ ](images/Vectorización_TFIDF.png)
+![w2V ](images/Vectorización_W2V.png)
+![TF-IDF](images/Vectorización_TFIDF.png)
 
 ### 4. Modelado
 
-![ ](images/Modelado.png)
+![Modelado](images/Modelado.png)
 
 ### 5. Evaluación del modelo
-![ ](images/Resumen_resultados.png)
+![Resumen de resultados](images/Resumen_resultados.png)
