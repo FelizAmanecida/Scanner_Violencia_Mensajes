@@ -67,8 +67,10 @@ En la fase de *Extracción de características* se exponen las técnicas a utili
 
 ### 1. Recolección de datos
 
+El principal impedimento para desarrollar un algoritmo de Machine Learning que aborde esta problemática es la falta de data estructurada y etiquetada. No hay estudios previos, ni siquiera exploratorios, que busquen identificar automáticamente la violencia psicológica contra la mujer en las expresiones escritas que le dirige su pareja por vía virtual. Por tanto fue necesario construir una base de datos (debido a lo difícil de conseguir de estas muestras, pues son consideradas un tanto personales y no son compartidas con tanta frecuencia por sus dueñas  por miedo a represalias de su agresor, verguenza de ser señaladas como víctimas, etc)  
 
 ![Metodología](images/Tabla_Fuentes_Dato.png)
+
 
 
 ![Metodología](images/Cantidad_Datos_Por_Fuente.PNG)
