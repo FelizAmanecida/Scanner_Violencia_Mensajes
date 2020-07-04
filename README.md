@@ -139,12 +139,19 @@ Dado el caracter instantáneo y descuidado ortográficamente hablando de la comu
 ![ ](images/Preproc_Autom_f.png)
 
 #### g) Homologación de entusiasmo y minusculización
-
-
+  
+  En la comunicación virtual es bastante común dar enfasis, simular un grito o incrementar la intensidad de una expresión a través de la repetición de las vocales de una palabra, sin embargo, de acuerdo a las variaciones de cantidad de veces que se repiten las vocales de una misma palabra, podría considerarseles como palabras distintas, ocasionando distorsión, igualmente con las mayúsculas, si se mantienen al comienzo de las oraciones estas podrían tomarse como distintas. Por eso se elminarán las vocales que fueron repetidas para dar intensidad a las palabras, quedando todas las palabras en su forma básica, sin "entusiasmo extra" y en minúsculas.   
 
 ![ ](images/Preproc_Autom_g.png)
-![ ](images/Preproc_Autom_h_i.png)
+
+#### h) N-gramización
+
+Un N-grama es una "frase" integrada por dos o más palabras que juntas tienen un significado específico muy diferente a que si estuvieran separadas, tal como "Hasta la vista!" significaría adiós o "Nos Vemos". Automáticamente estas se pueden detectar por la frecuencia de veces con que n palabras aparecen juntas.  
 ![ ](images/Trigramizado.png)
+
+
+![ ](images/Preproc_Autom_h_i.png)
+
 ![ ](images/Limpieza_Stopwords.png)
 
 
