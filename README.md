@@ -60,6 +60,7 @@ A continuación se visualiza el diagrama de para la elaboración del algoritmo s
 En la fase de *Extracción de características* se exponen las técnicas a utilizar para representar el texto de los mensajes virtuales como vectores numéricos, donde se puedan probar algoritmos para clasificarlos en niveles. En la fase de *Modelado* se probarán distintos algoritmos para lograr la clasificación de la forma más certera, siendo esta medida en la fase de *Evaluación del modelo*. 
 
 
+
 ![Metodología](images/Diagrama_Metodología.png)
 
 
@@ -88,6 +89,7 @@ El corpus ha de contener las palabras consideradas en todo el análisis y ademá
  #### - Cambio de tiempo verbal 
   Es necesario que las expresiones escritas tengan la misma forma en que las formularía el agresor a la víctima. Debido a que varias de las muestras incialmente estaban en la forma de relatos, a estas se les cambió el tiempo verbal una a una manualmente (a las que fue necesario, algunas ya lo tenían) a fin de que el algortimo entrene con la forma correcta de las oraciones, se respetó el contenido y las expresiones tal y como fueron formuladas, solo se les cambió la forma emulando la intención al ser dichas y teniendo en cuenta el contexto en que se formularon incialmente. Este proceso se realizó a las expresiones escritas que sí fueron etiquetadas. Tal como se muestra en la siguiente figura.
 
+
 ![Cambio de tiempo verbal de las expresiones escritas](images/Cambio_Tiempo_Verbal.png)
 
 
@@ -98,6 +100,8 @@ El preproceso automático fue aplicado a todo el corpus y a la data etiquetada, 
 #### a) Remoción de Links
 
   Debido a que parte de la data (en especial la del corpus) provenía de Twitter y fue obtenida con técnicas de scraping, contenía links y, dado que estos no aportan información valiosa al análisis, fueron eliminados con ayuda del paquete Re, que detecta patrones específicos (Links, Hashtags, menciones, etc).
+  
+  
 ![ ](images/Preproc_Autom_a.png)
 
 #### b) Reemplazo de emoticones
@@ -112,17 +116,21 @@ El preproceso automático fue aplicado a todo el corpus y a la data etiquetada, 
 
 ![ ](images/Preproc_Autom_c.png)
 
+
 #### d) Reemplazo de emojis
 
   Los emojis también son ampliamente usados especialmente en redes sociales para expresar sentimientos que sí aportan valor predictivo. Se les reemplazó por palabras clave y fueron entrenados en el corpus tal como las demás palabras a fin de que sí colaboren en el análisis. 
 
 ![ ](images/Preproc_Autom_d.png)
 
+
 #### e) Eliminación de signos y números
+
+  Es cierto que los signos aportan intensidad, sin embargo en la comunicación virtual en español (especialmente en Latinoamérica) hay una gran gama de variaciones donde se les utilizaría para muchas intenciones, tanto intensa alegría como intensa ira, dudas, afirmaciones efusivas, reclamos y declaraciones fuertes, dada la enorme probabilidad de que haga distrosión estando tan presente en los niveles bajos como en los altos se decidió excluirlos del análisis. Para lo cual se utilizaron funciones del paquete Re, se hizo lo mismo con los número pues estos no aportaban valor predictivo. 
 
 ![ ](images/Preproc_Autom_e.png)
 
-  Es cierto que los signos aportan intensidad, sin embargo en la comunicación virtual en español (especialmente en Latinoamérica) hay una gran gama de variaciones donde se les utilizaría para muchas intenciones, tanto intensa alegría como intensa ira, dudas, afirmaciones efusivas, reclamos y declaraciones fuertes, dada la enorme probabilidad de que haga distrosión estando tan presente en los niveles bajos como en los altos se decidió excluirlos del análisis. Para lo cual se utilizaron funciones del paquete Re, se hizo lo mismo con los número pues estos no aportaban valor predictivo. 
+
 
 #### f) Remoción de tildes y caracteres idiomáticos
 
