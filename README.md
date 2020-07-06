@@ -260,10 +260,10 @@ Se muestran a continuación los resultados detallados de las combinaciones de pa
 Resumiendo, los mejores resultados fueron obtenidos por las combinaciones:
 
 <p align="center">
-  <img width="600" src=images/Resumen_resultados.png>
+  <img width="500" src=images/Resumen_resultados.png>
 </p>
 
 Siendo las matrices de confusión con mejores resultados las 3 siguientes:
 <p align="center">
-  <img width="600" src=images/Matrices.png>
+  <img width="800" src=images/Matrices.png>
 </p>
