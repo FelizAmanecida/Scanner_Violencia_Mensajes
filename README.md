@@ -248,11 +248,11 @@ ________________________________________________________________________________
 ### 5. Evaluación del modelo
 
 <p align="center">
-  <img width="800" src=images/Resultado1.png>
+  <img width="800" src=images/Resultados1.png>
 </p>
 
 <p align="center">
-  <img width="800" src=images/Resultado2.png>
+  <img width="800" src=images/Resultados2.png>
 </p>
 
 
