@@ -13,7 +13,7 @@ En Perú, 7 de cada 10 mujeres han pasado por violencia contra la mujer en algú
 
 En este repositorio se ha cargado la data (solo la parte pública, por acuerdos de confidencialidad) utilizada para el entrenamiento del modelo clasificador de niveles de propensión a la violencia contra la mujer a fin de fomentar la investigación que contribuya a la prevención de la Violencia contra la Mujer.
 
-### Cuál es el problema?
+### ¿Cuál es el problema?
 
 ![Ciclo de la Violencia contra la mujer](images/Ciclo_de_Violencia_Leonor_Walker.png)
 
@@ -25,13 +25,14 @@ En la **Fase de "Luna de Miel"**, para evitar que ella lo deje, él le rogará s
 
 Lo peligroso de  dichas vueltas es que si una permanece iterando en el ciclo estos se vuelven cada vez más peligrosos (pasa del tipo de violencia psicológica a la física y/o sexual) y más cortos/frecuentes (si antes tomaba meses dar una vuelta completa, con el tiempo hasta se pueden dar varias vueltas en un día). Lo peor es que la víctima va *normalizando este comportamiento*, o hasta culpándose por él y seguirá modificando su comportamiento o excusándolo pues *niega estar en una situación de riesgo*, niega que le esté pasando a ella, porque es "algo que le pasa a todas las parejas", porque "los hombres son así" (estereotipos de género), por qué él le jura que no va a volver a pasar...
 
-Solo hay una manera de salir del Ciclo de Violencia contra la mujer, y consta de dos pasos:
-1. Darse cuenta de la situación de peligro que una corre
-2. Tomar acción (buscar ayuda psicológica, apoyo legal, ponerse a salvo a una y a sus hijos)
+**Entonces...¿Existe manera de salir del Ciclo de Violencia contra la mujer? SÍ, consta de dos pasos**
 
-Hasta que no sea conciente del riesgo que corre, la víctima lo seguirá negando y avanzará en dar vueltas en el ciclo de la violencia. Y no se trata solo de darse cuenta, sino también ser consciente del nivel de riesgo que se corre en esa relación, de qué tan lejos ya ha ido. El primer tipo de violencia en manifestarse es la psicológica, pero ¿Cómo podemos medir el nivel de violencia contra la mujer si la violencia psicológica no es visible? o sí? Acaso no son los mensajes virtuales un buen indicador de lo que piensa y siente su pareja hacia ella? Habrá un patrón reconocible por un algoritmo de Machine Learning?
+  **1.** Darse cuenta de la situación de peligro que una corre
+  **2.** Tomar acción (buscar ayuda psicológica, apoyo legal, ponerse a salvo a una y a sus hijos)
 
-Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes. Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también.
+Hasta que no sea *consciente del riesgo que corre*, la víctima lo seguirá *negando* y avanzará en dar vueltas en el ciclo de la violencia. Y no se trata solo de darse cuenta, sino también *ser consciente del nivel de riesgo que se corre en esa relación, de qué tan lejos ya ha ido*. El primer tipo de violencia en manifestarse es la psicológica, pero ¿Cómo podemos medir el nivel de violencia contra la mujer si la violencia psicológica no es visible? ¿o es que sí podemos detectarla de alguna manera *no tradicional*? ¿Acaso no son los mensajes virtuales un buen *indicador de lo que piensa y siente su pareja hacia ella*? ¿Habrá un *patrón* reconocible por un algoritmo de Machine Learning?
+
+Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes. Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también y generalmente para llegar ahí ha dado más vueltas en el Ciclo de Violencia. 
 
 #### NIVEL 1: CHANTAJE EMOCIONAL
 
