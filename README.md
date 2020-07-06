@@ -54,9 +54,14 @@ ________________________________________________________________________________
 
 ![NIvel3](images/Nivel3_Insultos_Humillaciones.png)
 
+_________________________________________________________________________________________________________________________________________________________
+
 #### NIVEL 4: AMENAZAS/POSESIVIDAD
 
 ![Nivel4](images/Nivel4_Amenazas_Posesividad.png)
+
+_________________________________________________________________________________________________________________________________________________________
+
 
  Los niveles están planteados para clasificar el avance de la violencia psicológica, como PREVENCIÓN, pues desde aquí se pasará a la violencia Física/Sexual, ya con consecuencias mucho más graves que incluso desembocan en feminicidios.
 
@@ -87,6 +92,8 @@ ________________________________________________________________________________
   El corpus ha de contener las palabras consideradas en todo el análisis y además "aprender" las relaciones entre ellas (sinonimia, antonimia, contextos, etc) por ello debe entrenarse con la mayor cantidad de data (de preferencia relacionada con el contexto de la conversación de pareja) y eso incluye el texto que será posteriormente etiquetado. La muestra etiquetada también se origina de varias fuentes para mantener la variedad y representatividad de estas en el análisis.
 
 ![Metodología](images/Cantidad_Datos_Por_Fuente.PNG)
+
+_________________________________________________________________________________________________________________________________________________________
 
 ### 2. Preprocesamiento
 
@@ -175,15 +182,20 @@ ________________________________________________________________________________
 
 ![ ](images/Limpieza_Stopwords.png)
 
+_________________________________________________________________________________________________________________________________________________________
 
 ### 3. Extracción de Características
 
 ![w2V ](images/Vectorización_W2V.png)
 ![TF-IDF](images/Vectorización_TFIDF.png)
 
+_________________________________________________________________________________________________________________________________________________________
+
 ### 4. Modelado
 
 ![Modelado](images/Modelado.png)
+
+_________________________________________________________________________________________________________________________________________________________
 
 ### 5. Evaluación del modelo
 ![Resumen de resultados](images/Resumen_resultados.png)
