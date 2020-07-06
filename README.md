@@ -23,12 +23,13 @@ Sin embargo llegan a la segunda fase, la más traumática, el **Episodio Agudo d
 
 En la **Fase de "Luna de Miel"**, para evitar que ella lo deje, él le rogará su perdón, le jurará que él va a cambiar, que nunca pasará de nuevo, que lo que pasó fue algo aislado. Se portará como al comienzo de la relación con palabras bonitas y detalles, hará TODO lo necesario para que ella lo perdone y acepte quedarse con él. Lamentablemente esta fase no dura mucho y si ella acepta volver a una relación así sin buscar ayuda por el comportamiento de él, lo más probable es que empiecen a dar vueltas en el ciclo una y otra vez, acumulando tensión,explotando y volviendo a dar otra vuelta. 
 
-Lo peligroso de  dichas vueltas es que si una permanece iterando en el ciclo estos se vuelven cada vez más peligrosos (pasa del tipo de violencia psicológica a la física y/o sexual) y más cortos/frecuentes (si antes tomaba meses dar una vuelta completa, con el tiempo hasta se pueden dar varias vueltas en un día). Lo peor es que la víctima va *normalizando este comportamiento*, o hasta culpándose por él y seguirá modificando su comportamiento o excusándolo pues *niega estar en una situación de riesgo*, niega que le esté pasando a ella, porque es "algo que le pasa a todas las parejas", porque "los hombres son así" (estereotipos de género), por qué él le jura que no va a volver a pasar...
+Lo peligroso de  dichas vueltas es que *si una permanece iterando en el ciclo estos se vuelven cada vez más peligrosos* (pasa del tipo de violencia psicológica a la física y/o sexual) y más cortos/frecuentes (si antes tomaba meses dar una vuelta completa, con el tiempo hasta se pueden dar varias vueltas en un día). Lo peor es que la víctima va *normalizando este comportamiento*, o hasta culpándose por él y seguirá modificando su comportamiento o excusándolo pues *niega estar en una situación de riesgo*, niega que le esté pasando a ella, porque es "algo que le pasa a todas las parejas", porque "los hombres son así" (estereotipos de género), por qué él le jura que no va a volver a pasar, la verdad es que hay muchos motivos por los que la víctima lo normaliza, sin embargo, se pone en riego a sí misma (y a sus hijos si los hubiera) si continúa dando vueltas en el Ciclo de Violencia
 
 **Entonces...¿Existe manera de salir del Ciclo de Violencia contra la mujer? SÍ, consta de dos pasos**
 
-  **1.** Darse cuenta de la situación de peligro que una corre
-  **2.** Tomar acción (buscar ayuda psicológica, apoyo legal, ponerse a salvo a una y a sus hijos)
+  **1. Darse cuenta de la situación de peligro que una corre
+  
+  **2. Tomar acción (buscar ayuda psicológica, apoyo legal, ponerse a salvo a una y a sus hijos)
 
 Hasta que no sea *consciente del riesgo que corre*, la víctima lo seguirá *negando* y avanzará en dar vueltas en el ciclo de la violencia. Y no se trata solo de darse cuenta, sino también *ser consciente del nivel de riesgo que se corre en esa relación, de qué tan lejos ya ha ido*. El primer tipo de violencia en manifestarse es la psicológica, pero ¿Cómo podemos medir el nivel de violencia contra la mujer si la violencia psicológica no es visible? ¿o es que sí podemos detectarla de alguna manera *no tradicional*? ¿Acaso no son los mensajes virtuales un buen *indicador de lo que piensa y siente su pareja hacia ella*? ¿Habrá un *patrón* reconocible por un algoritmo de Machine Learning?
 
@@ -50,10 +51,12 @@ Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Pro
 
 ![Nivel4](images/Nivel4_Amenazas_Posesividad.png)
 
-Los niveles están planteados para clasificar el avance de la violencia psicológica, como PREVENCIÓN, pues desde aquí se pasará a la violencia Física/Sexual, ya con consecuencias mucho más graves que incluso desembocan en feminicidios.
-Durante mucho tiempo el Machine Learning ha permitido clasificar/predecir con mucha certeza en tópicos como diagnóstico de cáncer en base a imágenes, proyecciones de precios en base a históricos, análisis de sentimientos para evaluar la satisfacción del cliente en base a sus comentarios. Sin embargo, raras veces se le ha utilizado para prevenir la Violencia contra la mujer. Ese es el objetivo de este algoritmo. Detectar a tiempo, para actuar a tiempo. 
+ Los niveles están planteados para clasificar el avance de la violencia psicológica, como PREVENCIÓN, pues desde aquí se pasará a la violencia Física/Sexual, ya con consecuencias mucho más graves que incluso desembocan en feminicidios.
 
-Entonces...la pregunta es: ¿Podemos entrenar un algoritmo que ayude a identificar niveles de propensión a la violencia contra la mujer (en su fase inicial, la psicológica) analizando los mensajes virtuales (chats) de su pareja para que le dé aviso a la usuaria del riesgo que corre en esa relación? 
+ Durante mucho tiempo el Machine Learning ha permitido clasificar/predecir con mucha certeza en tópicos como diagnóstico de cáncer en base a imágenes, proyecciones de precios en base a históricos, análisis de sentimientos para evaluar la satisfacción del cliente en base a sus comentarios. Sin embargo, raras veces se le ha utilizado para prevenir la Violencia contra la mujer. Ese es el objetivo de este algoritmo. *Detectar a tiempo, para actuar a tiempo* 
+
+Sería necesario entonces ayudar a la víctima a darse cuenta en qué nivel de violencia se encuentra tomando esa decisión  a fin de que ella tome acción oportuna y pueda salir del Ciclo de Violencia. 
+*Entonces...la pregunta es: ¿Podemos entrenar un algoritmo que ayude a identificar niveles de propensión a la violencia contra la mujer (en su fase inicial, la psicológica) analizando los mensajes virtuales (chats) de su pareja para que le dé aviso a la usuaria del riesgo que corre en esa relación? **
 
 ### El Algoritmo...
 
