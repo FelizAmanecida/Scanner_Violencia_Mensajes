@@ -110,8 +110,9 @@ ________________________________________________________________________________
  #### - Cambio de tiempo verbal 
   Es necesario que las expresiones escritas tengan la misma forma en que las formularía el agresor a la víctima. Debido a que varias de las muestras incialmente estaban en la forma de relatos, a estas se les cambió el tiempo verbal una a una manualmente (a las que fue necesario, algunas ya lo tenían) a fin de que el algortimo entrene con la forma correcta de las oraciones, se respetó el contenido y las expresiones tal y como fueron formuladas, solo se les cambió la forma emulando la intención al ser dichas y teniendo en cuenta el contexto en que se formularon incialmente. Este proceso se realizó a las expresiones escritas que sí fueron etiquetadas. Tal como se muestra en la siguiente figura.
 
-
-![Cambio de tiempo verbal de las expresiones escritas](images/Cambio_Tiempo_Verbal.png)
+<p align="center">
+  <img width="800" src=images/Cambio_Tiempo_Verbal.png>
+</p>
 
 
 ### Proceso Automático
@@ -122,8 +123,10 @@ ________________________________________________________________________________
 
   Debido a que parte de la data (en especial la del corpus) provenía de Twitter y fue obtenida con técnicas de scraping, contenía links y, dado que estos no aportan información valiosa al análisis, fueron eliminados con ayuda del paquete Re (que trabaja con "Expresiones Regulares"), que permite identificar el comienzo de un patrón específico (Links, Hashtags, menciones, etc) hasta que la cadena termina en un espacio en blanco (pasando a las palabras en un mensaje) para reemplazarla (por el vacío) y devolver el texto limpio de este patrón (en este caso libre de links)
   
-  
-![ ](images/Preproc_Autom_a.png)
+<p align="center">
+  <img width="800" src=images/Preproc_Autom_a.png>
+</p>
+
 
 #### b) Reemplazo de emoticones
 
