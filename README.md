@@ -247,6 +247,8 @@ ________________________________________________________________________________
 
 ### 5. Evaluación del modelo
 
+Se muestran a continuación los resultados detallados de las combinaciones de parámetros para cada algoritmo en busca del mejor accuracy, esta es la métrica más adecuada para medir la performance en caso de clasificaciones multiclase donde la data está perfectamente balanceada (misma cantidad de registros de cada categoría) y la matriz de confusión multicategórica es la más adecuada para su visualización. 
+
 <p align="center">
   <img width="800" src=images/Resultados1.png>
 </p>
@@ -255,8 +257,13 @@ ________________________________________________________________________________
   <img width="800" src=images/Resultados2.png>
 </p>
 
+Resumiendo, los mejores resultados fueron obtenidos por las combinaciones:
 
 <p align="center">
   <img width="600" src=images/Resumen_resultados.png>
 </p>
 
+Siendo las matrices de confusión con mejores resultados las 3 siguientes:
+<p align="center">
+  <img width="600" src=images/Matrices.png>
+</p>
