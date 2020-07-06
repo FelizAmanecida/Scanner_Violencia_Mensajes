@@ -16,7 +16,7 @@
 ### ¿Cuál es el problema?
 
 <p align="center">
-  <img width="500" height="400" src=images/Ciclo_de_Violencia_Leonor_Walker.png>
+  <img width="600" height="400" src=images/Ciclo_de_Violencia_Leonor_Walker.png>
 </p>
 
 
