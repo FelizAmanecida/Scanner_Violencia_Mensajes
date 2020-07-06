@@ -99,7 +99,7 @@ El preproceso automático fue aplicado a todo el corpus y a la data etiquetada, 
 
 #### a) Remoción de Links
 
-  Debido a que parte de la data (en especial la del corpus) provenía de Twitter y fue obtenida con técnicas de scraping, contenía links y, dado que estos no aportan información valiosa al análisis, fueron eliminados con ayuda del paquete Re, que detecta patrones específicos (Links, Hashtags, menciones, etc).
+  Debido a que parte de la data (en especial la del corpus) provenía de Twitter y fue obtenida con técnicas de scraping, contenía links y, dado que estos no aportan información valiosa al análisis, fueron eliminados con ayuda del paquete Re (que trabaja con "Expresiones Regulares"), que permite identificar el comienzo de un patrón específico (Links, Hashtags, menciones, etc) hasta que la cadena termina en un espacio en blanco (pasando a las palabras en un mensaje) para reemplazarla (por el vacío) y devolver el texto limpio de este patrón (en este caso libre de links)
   
   
 ![ ](images/Preproc_Autom_a.png)
@@ -112,14 +112,14 @@ El preproceso automático fue aplicado a todo el corpus y a la data etiquetada, 
 
 #### c) Remoción de Hashtags y menciones
 
-  Al igual que con los links, estos datos solo distorsionarían el análisis y tomando en cuenta las fuentes de la base de datos, fue necesario retirarlos con ayuda del paquete Re, identificando el patrón y removiendolos.
+  Al igual que con los links, estos datos solo distorsionarían el análisis y tomando en cuenta las fuentes de la base de datos, fue necesario retirarlos con ayuda del paquete Re, identificando desde donde se detecta el patrón hasta donde se encuentra un espacio en blanco a la derecha, para devolver la cadena de texto “limpia” de estos. 
 
 ![ ](images/Preproc_Autom_c.png)
 
 
 #### d) Reemplazo de emojis
 
-  Los emojis también son ampliamente usados especialmente en redes sociales para expresar sentimientos que sí aportan valor predictivo. Se les reemplazó por palabras clave y fueron entrenados en el corpus tal como las demás palabras a fin de que sí colaboren en el análisis. 
+  Los emojis también son ampliamente usados especialmente en redes sociales para expresar sentimientos que sí aportan valor predictivo. Se les reemplazó por palabras clave preespecificadas por el paquete Emoji y fueron entrenados en el corpus tal como las demás palabras asignándoles un contexto a fin de que sí colaboren en el análisis en vista de su correlación con la predicción de la intención de los mensajes.
 
 ![ ](images/Preproc_Autom_d.png)
 
