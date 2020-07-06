@@ -206,6 +206,17 @@ ________________________________________________________________________________
   <img width="900" src=images/Limpieza_Stopwords.png>
 </p>
 
+Luego de todos estos filtros se obtiene el texto preoprocesado o "limpio", listo para convertirlo a vector de números. A continuación la visualización a través de WordCloud de las palabras más comunes de cada nivel, donde podemos observar que efectivamente hay un patrón que lo caracteriza luego del preproceso.
+
+<p align="center">
+  <img width="800" src=images/Visualizacion_1.png>
+</p>
+
+<p align="center">
+  <img width="800" src=images/Visualizacion_2.png>
+</p>
+
+
 _________________________________________________________________________________________________________________________________________________________
 
 ### 3. Extracción de Características
