@@ -134,23 +134,33 @@ El preproceso automático fue aplicado a todo el corpus y a la data etiquetada, 
 
 #### f) Remoción de tildes y caracteres idiomáticos
 
-Dado el caracter instantáneo y descuidado ortográficamente hablando de la comunicación virtual, si se escribiera una palabra con tildes y en otra ocasión sin tildes o con ellas pero en un lugar incorrecto, se tomarían como palabras distintas, con distinto significado e incluso contexto, esto crearía distorsión pues la única diferencia sería la correcta/incorrecta puntuación cuando se trata de la misma palabra. Para corregir esto, se eliminan todas las tildes y los caracteres idiomáticos (diéresis, eñes, etc). Esto se logra a través del paquete Unidecode.
+Dado el caracter instantáneo y descuidado ortográficamente hablando de la comunicación virtual, si se escribiera una palabra con tildes y en otra ocasión sin tildes o con ellas pero en un lugar incorrecto, se tomarían como palabras distintas ("policía" y "policia" o "surgió" y "surgio"), con distinto significado e incluso contexto, esto crearía distorsión pues la única diferencia sería la correcta/incorrecta puntuación cuando se trata de la misma palabra. Para corregir esto, se eliminan todas las tildes y los caracteres idiomáticos (diéresis, eñes, etc) ignorando el hecho de que las hayan escrito correctamente o no en un comienzo. Esto se logra a través del paquete Unidecode.
 
 ![ ](images/Preproc_Autom_f.png)
 
 #### g) Homologación de entusiasmo y minusculización
   
-  En la comunicación virtual es bastante común dar enfasis, simular un grito o incrementar la intensidad de una expresión a través de la repetición de las vocales de una palabra, sin embargo, de acuerdo a las variaciones de cantidad de veces que se repiten las vocales de una misma palabra, podría considerarseles como palabras distintas, ocasionando distorsión, igualmente con las mayúsculas, si se mantienen al comienzo de las oraciones estas podrían tomarse como distintas. Por eso se elminarán las vocales que fueron repetidas para dar intensidad a las palabras, quedando todas las palabras en su forma básica, sin "entusiasmo extra" y en minúsculas.   
-
+  Es bastante común en las redes sociales virtuales en español el uso de la repetición de las vocales para agregar entusiasmo/impacto a las palabras (por ejemplo “no lo haga” se podría expresar como “nooo lo hagaaaaaa” a fin de subirle el impacto, simulando que el emisor estuviera gritando a través de la repetición de la última vocal). A fin de evitar que el modelo entrene la misma palabra pero con distinta cantidad de vocales repetidas ("haga", "hagaaaa","hagaaaaaaaa" contextualmente siguen siendo la misma palabra) como si fueran palabras distintas, se realizó una función que "homologue" si se encontraba duplicados en la última letra de la palabra, cabe notar que no se utilizó ninguna librería sino que la función se hizo en base a conteos y comparaciones de caracteres desde el final de las palabras evaluadas. 
+  En vista que ocurría el mismo problema con las mayúsculas al comienzo de las oraciones o la forma de expresarse en entornos virtuales escribiendo con mayúsculas simulando que se alza la voz ("Hagas", "hagas", "HAGAS" contextualmente siguen siendo la misma palabra) se decidió homologar esto también, pasando todo a minúsculas.
+  
 ![ ](images/Preproc_Autom_g.png)
 
 #### h) N-gramización
 
-Un N-grama es una "frase" integrada por dos o más palabras que juntas tienen un significado específico muy diferente a que si estuvieran separadas, tal como "Hasta la vista!" significaría adiós o "Nos Vemos". Automáticamente estas se pueden detectar por la frecuencia de veces con que n palabras aparecen juntas.  
-![ ](images/Trigramizado.png)
-
+  Un N-grama es una "frase" integrada por dos o más palabras que juntas tienen un significado específico muy diferente a que si estuvieran separadas, tal como "Hasta la vista!" ,"Crisis financiera" o "Puente Piedra" por ejemplo. Automáticamente estas se pueden detectar por la frecuencia de veces con que aparecen juntas. A fin de no perder estos "conceptos" del análisis o eliminar parte de ellos en la remoción de stopwords (como pasaría con "Hasta la vista" que quedaría como "vista" y expresaría algo totalmente diferente) se les agrupa, uniéndolos con un guión bajo ("Hasta_la_vista") y siendo entrenado en el corpus con su propio contexto y relación con las demás palabras. Esto se realiza gracias a la librería Gensim, su módulo models y la función Phrases, lo atractivo de esta librería es que “crea un objeto Phraser” que puede convertir cualquier texto dado a una versión donde incluye las frases que han sido entrenadas en él anteriormente. Esto permite "aplicarlo" a cualquier nuevo texto y automáticamente agrupar las frases que "ya se aprendió".
+  
+  En vista que cada nivel de propensión a violencia tenía sus propias "frases comunes" altamente significativas para la predicción ("te_amo","si_me_dejas","alejate_de_el", "eres_una","te_voy_a","te_odio") se les entrenó por separado (Por ejemplo, se entrenaron las frases del nivel 0 solo de la data etiquetada en este nivel, y así sucesivamente) y luego se le aplicó este objeto Phraser (que agrupa las palabras entrenadas en frases separadas por " _ " si estas están juntas cierta cantidad de veces), a fin de agrupar las palabras clave en conceptos característicos de cada nivel en específico. 
+  
+  ![ ](images/Trigramizado.png)
+  
+  
+  Se le aplicó el objeto phraser entrenado de cada nivel sucesivamente a la data de entrenamiento y test (tal como se muestra en la imagen) desde el nivel con mayor propensión a violencia hasta el de menor riesgo. Se les aplicó todos a fin de no sesgar el análisis aplicando a cada muestra solo las frases de su nivel pues se necesitaba data pre-procesada de la misma forma en las muestras de test que en las de train.
 
 ![ ](images/Preproc_Autom_h_i.png)
+
+#### i) Remoción de Stop-Words
+
+  Este paso se realiza después de los n-grams a fin de que se capture en estos las frases más importantes y las preposiciones no se pierdan al eliminar las palabras conocidas como stopwords (conectores, preposiciones, entre otros). Para esto se utilizará la librería nltk (Natural Language Toolkit), en su módulo corpus, la lista predefinida de stopwords (disponible en este paquete para 11 idiomas) en este caso en español. 
 
 ![ ](images/Limpieza_Stopwords.png)
 
