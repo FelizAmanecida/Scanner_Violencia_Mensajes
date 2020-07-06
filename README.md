@@ -132,42 +132,57 @@ ________________________________________________________________________________
 
   Los emoticones emulan gestos a través de combinaciones de signos de puntuación, sí aportan información valiosa sobre la intención y emoción expresada, por tanto y para no perder el valor predictivo, los que expresaban sentimientos significativos para el análisis fueron reemplazados por palabras clave.
 
-![ ](images/Preproc_Autom_b.png)
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_b.png>
+</p>
 
 #### c) Remoción de Hashtags y menciones
 
   Al igual que con los links, estos datos solo distorsionarían el análisis y tomando en cuenta las fuentes de la base de datos, fue necesario retirarlos con ayuda del paquete Re, identificando desde donde se detecta el patrón hasta donde se encuentra un espacio en blanco a la derecha, para devolver la cadena de texto “limpia” de estos. 
 
-![ ](images/Preproc_Autom_c.png)
+
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_c.png>
+</p>
+
 
 
 #### d) Reemplazo de emojis
 
   Los emojis también son ampliamente usados especialmente en redes sociales para expresar sentimientos que sí aportan valor predictivo. Se les reemplazó por palabras clave preespecificadas por el paquete Emoji y fueron entrenados en el corpus tal como las demás palabras asignándoles un contexto a fin de que sí colaboren en el análisis en vista de su correlación con la predicción de la intención de los mensajes.
 
-![ ](images/Preproc_Autom_d.png)
+
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_d.png>
+</p>
 
 
 #### e) Eliminación de signos y números
 
   Es cierto que los signos aportan intensidad, sin embargo en la comunicación virtual en español (especialmente en Latinoamérica) hay una gran gama de variaciones donde se les utilizaría para muchas intenciones, tanto intensa alegría como intensa ira, dudas, afirmaciones efusivas, reclamos y declaraciones fuertes, dada la enorme probabilidad de que haga distrosión estando tan presente en los niveles bajos como en los altos se decidió excluirlos del análisis. Para lo cual se utilizaron funciones del paquete Re, se hizo lo mismo con los número pues estos no aportaban valor predictivo. 
 
-![ ](images/Preproc_Autom_e.png)
-
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_e.png>
+</p>
 
 
 #### f) Remoción de tildes y caracteres idiomáticos
 
   Dado el caracter instantáneo y descuidado ortográficamente hablando de la comunicación virtual, si se escribiera una palabra con tildes y en otra ocasión sin tildes o con ellas pero en un lugar incorrecto, se tomarían como palabras distintas ("policía" y "policia" o "surgió" y "surgio"), con distinto significado e incluso contexto, esto crearía distorsión pues la única diferencia sería la correcta/incorrecta puntuación cuando se trata de la misma palabra. Para corregir esto, se eliminan todas las tildes y los caracteres idiomáticos (diéresis, eñes, etc) ignorando el hecho de que las hayan escrito correctamente o no en un comienzo. Esto se logra a través del paquete Unidecode.
 
-![ ](images/Preproc_Autom_f.png)
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_f.png>
+</p>
+
 
 #### g) Homologación de entusiasmo y minusculización
   
   Es bastante común en las redes sociales virtuales en español el uso de la repetición de las vocales para agregar entusiasmo/impacto a las palabras (por ejemplo “no lo haga” se podría expresar como “nooo lo hagaaaaaa” a fin de subirle el impacto, simulando que el emisor estuviera gritando a través de la repetición de la última vocal). A fin de evitar que el modelo entrene la misma palabra pero con distinta cantidad de vocales repetidas ("haga", "hagaaaa","hagaaaaaaaa" contextualmente siguen siendo la misma palabra) como si fueran palabras distintas, se realizó una función que "homologue" si se encontraba duplicados en la última letra de la palabra, cabe notar que no se utilizó ninguna librería sino que la función se hizo en base a conteos y comparaciones de caracteres desde el final de las palabras evaluadas. 
   En vista que ocurría el mismo problema con las mayúsculas al comienzo de las oraciones o la forma de expresarse en entornos virtuales escribiendo con mayúsculas simulando que se alza la voz ("Hagas", "hagas", "HAGAS" contextualmente siguen siendo la misma palabra) se decidió homologar esto también, pasando todo a minúsculas.
   
-![ ](images/Preproc_Autom_g.png)
+<p align="center">
+  <img width="900" src=images/Preproc_Autom_g.png>
+</p>
 
 #### h) N-gramización
 
@@ -186,7 +201,10 @@ ________________________________________________________________________________
 
   Este paso se realiza después de los n-grams a fin de que se capture en estos las frases más importantes y las preposiciones no se pierdan al eliminar las palabras conocidas como stopwords (conectores, preposiciones, entre otros). Para esto se utilizará la librería nltk (Natural Language Toolkit), en su módulo corpus, la lista predefinida de stopwords (disponible en este paquete para 11 idiomas) en este caso en español. 
 
-![ ](images/Limpieza_Stopwords.png)
+
+<p align="center">
+  <img width="900" src=images/Limpieza_Stopwords.png>
+</p>
 
 _________________________________________________________________________________________________________________________________________________________
 
