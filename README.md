@@ -15,7 +15,10 @@
 
 ### ¿Cuál es el problema?
 
-![Ciclo de la Violencia contra la mujer](images/Ciclo_de_Violencia_Leonor_Walker.png)
+<p align="center">
+  <img width="200" height="200" src=images/Ciclo_de_Violencia_Leonor_Walker.png>
+</p>
+
 
   El Ciclo de la Violencia contra la mujer tiene tres fases: La primera es la **Acumulación de Tensión** hay discusiones,descontento, él tiene repentinos cambios de humor e intenta hacer (de una forma no amable) "que ella haga lo que debe", ella ajusta su comportamiento para "evitar  peleas", excusandolo por "haber tenido un mal día", atribuyendolo a su personalidad o hasta culpándose a ella misma.  
 
