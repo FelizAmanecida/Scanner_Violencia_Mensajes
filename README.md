@@ -232,7 +232,7 @@ ________________________________________________________________________________
 ### 4. Modelado
 
 <p align="center">
-  <img width="800" height="600" src=images/Muestreo.png>
+  <img width="800" src=images/Muestreo.png>
 </p>
 
 
