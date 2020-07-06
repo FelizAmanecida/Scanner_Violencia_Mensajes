@@ -231,10 +231,11 @@ ________________________________________________________________________________
 
 ### 4. Modelado
 
+La partición entre Train y test fue a través de muestreo estratificado (el mismo porcentaje de datos de cada nivel tanto al train como en el test), anteriormente la data estaba perfectamente balanceada, contado con 1050 (5250 entre 5 categorías) documentos de cada nivel. A continuación se muestran los detalles de la partición: 
+
 <p align="center">
   <img width="800" src=images/Muestreo.png>
 </p>
-
 
 Se probó con varios algoritmos de Machine Learning cada uno con variaciones en sus parámetros a fin de encontrar la mejor combinación y desarrollar el modelo que mejor clasifique entre los 5 niveles, para esto se utilizó el paquete Grid Search para las pruebas y combinaciones de parámetros que incrementen la performance del modelo, a su vez se le dio el comando a este para que con la data de train se aplique internamente Cross Validation a fin de que no se ajuste demasiado a un conjunto de datos en específico sino que vaya probando y evite el overfitting.
 
@@ -246,7 +247,16 @@ ________________________________________________________________________________
 
 ### 5. Evaluación del modelo
 
+<p align="center">
+  <img width="800" src=images/Resultado1.png>
+</p>
+
+<p align="center">
+  <img width="800" src=images/Resultado2.png>
+</p>
 
 
+<p align="center">
+  <img width="600" src=images/Resumen_resultados.png>
+</p>
 
-![Resumen de resultados](images/Resumen_resultados.png)
