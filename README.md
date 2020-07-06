@@ -226,6 +226,11 @@ ________________________________________________________________________________
 
 ### 4. Modelado
 
+<p align="center">
+  <img width="800" height="600" src=images/Muestreo.png>
+</p>
+
+
 Se probó con varios algoritmos de Machine Learning cada uno con variaciones en sus parámetros a fin de encontrar la mejor combinación y desarrollar el modelo que mejor clasifique entre los 5 niveles, para esto se utilizó el paquete Grid Search para las pruebas y combinaciones de parámetros que incrementen la performance del modelo, a su vez se le dio el comando a este para que con la data de train se aplique internamente Cross Validation a fin de que no se ajuste demasiado a un conjunto de datos en específico sino que vaya probando y evite el overfitting.
 
 <p align="center">
