@@ -216,11 +216,16 @@ Se utilizaron dos técnicas de vectorización a fin de representar la data textu
   
   La ventaja de utilizar Word2Vec es que los datos son representados de manera muy abstracta y permite que se entrene el contexto, sinónimos y hasta antónimos de las palabras en base a distancias, es como si se generara una nube de palabras donde las más cercanas tuvieran el mismo contexto, donde se le representa a cada palabra por su "coordenada" en esta nube, la diferencia es que se le representa en varias dimensiones. 
 
-![w2V ](images/Vectorización_W2V.png)
+<p align="center">
+  <img width="800" height="600" src=images/Vectorización_W2V.png>
+</p>
 
 La técnica TF-IDF es bastante más sencilla, se probó variando el parámetro min_df a fin de afectar la cantidad de palabras consideradas en el análisis, lo cual a su vez afecta a la longitud de los vectores, buscando la longitud que mejor represente al conjunto de datos. Esta técnica se basa en la frecuencia de las palabras "clave" vs la representatividad que se le asigna en cada nivel.
 
-![TF-IDF](images/Vectorización_TFIDF.png)
+<p align="center">
+  <img width="800" height="600" src=images/Vectorización_TFIDF.png>
+</p>
+
 
 _________________________________________________________________________________________________________________________________________________________
 
