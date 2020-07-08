@@ -38,6 +38,9 @@
 
   Veamos...con ayuda de una de las psicólogas del Centro de Emergencia Mujer (Programa Nacional Contra la Violencia Familiar y Sexual, Perú) identificamos y validamos niveles de que un chico sea propenso a ser violento contra la mujer en base a lo que le escribe a su pareja. Observemos cada nivel y si se le puede reconocer en los mensajes. Nótese que a medida que los niveles van subiendo, el riesgo de ella en esa relación también y generalmente para llegar ahí ha dado más vueltas en el Ciclo de Violencia. 
 
+
+### NIVELES IDENTIFICADOS
+
 #### NIVEL 1: CHANTAJE EMOCIONAL
 
 ![Nivel1](images/Nivel1_Chantaje_Emocional.png)
