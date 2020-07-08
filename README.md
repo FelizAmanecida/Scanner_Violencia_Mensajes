@@ -103,7 +103,7 @@ ________________________________________________________________________________
   El etiquetado de 5250 expresiones escritas en uno de los 5 niveles de propensión a la violencia contra la mujer (0: BAJO RIESGO, 1: CHANTAJE_EMOCIONAL, 2: CELOS_JUSTIFICACION, 3: INSULTOS_HUMILLACIONES, 4: AMENAZAS_POSESIVIDAD) se dió analizando bajo los criterios teóricos una a una. El preetiquetado fue realizado por la entonces tesista Tereza Yallico y posteriormente evaluadas (también una a una) y , en ocasiones, corregidas por la  Psicóloga Gabriela Llanto, que entonces laboraba en el CEM (Centro de Emergencia Mujer) de Apolo, en Lima (Perú), cuyo rol principal es dar contención emocional a las víctimas de violencia doméstica y evaluar su nivel de riesgo respecto a la situación en la que estaban (evaluado a través de preguntas cerradas y el relato de las agresiones tanto psicológicas como físicas que estas sufrieron).
 
 <p align="center">
-  <img width="800" src=images/Ejemplo_registro_por_clase.png>
+  <img width="800" src="images/Ejemplo_registro_por_clase.png">
 </p>
 
 
@@ -111,7 +111,7 @@ ________________________________________________________________________________
   Es necesario que las expresiones escritas tengan la misma forma en que las formularía el agresor a la víctima. Debido a que varias de las muestras incialmente estaban en la forma de relatos, a estas se les cambió el tiempo verbal una a una manualmente (a las que fue necesario, algunas ya lo tenían) a fin de que el algortimo entrene con la forma correcta de las oraciones, se respetó el contenido y las expresiones tal y como fueron formuladas, solo se les cambió la forma emulando la intención al ser dichas y teniendo en cuenta el contexto en que se formularon incialmente. Este proceso se realizó a las expresiones escritas que sí fueron etiquetadas. Tal como se muestra en la siguiente figura.
 
 <p align="center">
-  <img width="800" src=images/Cambio_Tiempo_Verbal.png>
+  <img width="800" src="images/Cambio_Tiempo_Verbal.png">
 </p>
 
 
@@ -124,7 +124,7 @@ ________________________________________________________________________________
   Debido a que parte de la data (en especial la del corpus) provenía de Twitter y fue obtenida con técnicas de scraping, contenía links y, dado que estos no aportan información valiosa al análisis, fueron eliminados con ayuda del paquete Re (que trabaja con "Expresiones Regulares"), que permite identificar el comienzo de un patrón específico (Links, Hashtags, menciones, etc) hasta que la cadena termina en un espacio en blanco (pasando a las palabras en un mensaje) para reemplazarla (por el vacío) y devolver el texto limpio de este patrón (en este caso libre de links)
   
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_a.png>
+  <img width="900" src="images/Preproc_Autom_a.png">
 </p>
 
 
@@ -133,7 +133,7 @@ ________________________________________________________________________________
   Los emoticones emulan gestos a través de combinaciones de signos de puntuación, sí aportan información valiosa sobre la intención y emoción expresada, por tanto y para no perder el valor predictivo, los que expresaban sentimientos significativos para el análisis fueron reemplazados por palabras clave.
 
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_b.png>
+  <img width="900" src="images/Preproc_Autom_b.png">
 </p>
 
 #### c) Remoción de Hashtags y menciones
@@ -142,7 +142,7 @@ ________________________________________________________________________________
 
 
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_c.png>
+  <img width="900" src="images/Preproc_Autom_c.png">
 </p>
 
 
@@ -153,7 +153,7 @@ ________________________________________________________________________________
 
 
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_d.png>
+  <img width="900" src="images/Preproc_Autom_d.png">
 </p>
 
 
@@ -162,7 +162,7 @@ ________________________________________________________________________________
   Es cierto que los signos aportan intensidad, sin embargo en la comunicación virtual en español (especialmente en Latinoamérica) hay una gran gama de variaciones donde se les utilizaría para muchas intenciones, tanto intensa alegría como intensa ira, dudas, afirmaciones efusivas, reclamos y declaraciones fuertes, dada la enorme probabilidad de que haga distrosión estando tan presente en los niveles bajos como en los altos se decidió excluirlos del análisis. Para lo cual se utilizaron funciones del paquete Re, se hizo lo mismo con los número pues estos no aportaban valor predictivo. 
 
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_e.png>
+  <img width="900" src="images/Preproc_Autom_e.png">
 </p>
 
 
@@ -171,7 +171,7 @@ ________________________________________________________________________________
   Dado el caracter instantáneo y descuidado ortográficamente hablando de la comunicación virtual, si se escribiera una palabra con tildes y en otra ocasión sin tildes o con ellas pero en un lugar incorrecto, se tomarían como palabras distintas ("policía" y "policia" o "surgió" y "surgio"), con distinto significado e incluso contexto, esto crearía distorsión pues la única diferencia sería la correcta/incorrecta puntuación cuando se trata de la misma palabra. Para corregir esto, se eliminan todas las tildes y los caracteres idiomáticos (diéresis, eñes, etc) ignorando el hecho de que las hayan escrito correctamente o no en un comienzo. Esto se logra a través del paquete Unidecode.
 
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_f.png>
+  <img width="900" src="images/Preproc_Autom_f.png">
 </p>
 
 
@@ -181,7 +181,7 @@ ________________________________________________________________________________
   En vista que ocurría el mismo problema con las mayúsculas al comienzo de las oraciones o la forma de expresarse en entornos virtuales escribiendo con mayúsculas simulando que se alza la voz ("Hagas", "hagas", "HAGAS" contextualmente siguen siendo la misma palabra) se decidió homologar esto también, pasando todo a minúsculas.
   
 <p align="center">
-  <img width="900" src=images/Preproc_Autom_g.png>
+  <img width="900" src="images/Preproc_Autom_g.png">
 </p>
 
 #### h) N-gramización
@@ -203,17 +203,17 @@ ________________________________________________________________________________
 
 
 <p align="center">
-  <img width="900" src=images/Limpieza_Stopwords.png>
+  <img width="900" src="images/Limpieza_Stopwords.png">
 </p>
 
 Luego de todos estos filtros se obtiene el texto preoprocesado o "limpio", listo para convertirlo a vector de números. A continuación la visualización a través de WordCloud de las palabras más comunes de cada nivel, donde podemos observar que efectivamente hay un patrón que lo caracteriza luego del preproceso.
 
 <p align="center">
-  <img width="800" src=images/Visualizacion_1.png>
+  <img width="800" src="images/Visualizacion_1.png">
 </p>
 
 <p align="center">
-  <img width="800" src=images/Visualizacion_2.png>
+  <img width="800" src="images/Visualizacion_2.png">
 </p>
 
 
@@ -228,13 +228,13 @@ Se utilizaron dos técnicas de vectorización a fin de representar la data textu
   La ventaja de utilizar Word2Vec es que los datos son representados de manera muy abstracta y permite que se entrene el contexto, sinónimos y hasta antónimos de las palabras en base a distancias, es como si se generara una nube de palabras donde las más cercanas tuvieran el mismo contexto, donde se le representa a cada palabra por su "coordenada" en esta nube, la diferencia es que se le representa en varias dimensiones. 
 
 <p align="center">
-  <img width="800" src=images/Vectorización_W2V.png>
+  <img width="800" src="images/Vectorización_W2V.png">
 </p>
 
 La técnica TF-IDF es bastante más sencilla, se probó variando el parámetro min_df a fin de afectar la cantidad de palabras consideradas en el análisis, lo cual a su vez afecta a la longitud de los vectores, buscando la longitud que mejor represente al conjunto de datos. Esta técnica se basa en la frecuencia de las palabras "clave" vs la representatividad que se le asigna en cada nivel.
 
 <p align="center">
-  <img width="800" src=images/Vectorización_TFIDF.png>
+  <img width="800" src="images/Vectorización_TFIDF.png">
 </p>
 
 
@@ -245,13 +245,13 @@ ________________________________________________________________________________
 La partición entre Train y test fue a través de muestreo estratificado (el mismo porcentaje de datos de cada nivel tanto al train como en el test), anteriormente la data estaba perfectamente balanceada, contado con 1050 (5250 entre 5 categorías) documentos de cada nivel. A continuación se muestran los detalles de la partición: 
 
 <p align="center">
-  <img width="600" src=images/Muestreo.png>
+  <img width="600" src="images/Muestreo.png">
 </p>
 
 Se probó con varios algoritmos de Machine Learning cada uno con variaciones en sus parámetros a fin de encontrar la mejor combinación y desarrollar el modelo que mejor clasifique entre los 5 niveles, para esto se utilizó el paquete Grid Search para las pruebas y combinaciones de parámetros que incrementen la performance del modelo, a su vez se le dio el comando a este para que con la data de train se aplique internamente Cross Validation a fin de que no se ajuste demasiado a un conjunto de datos en específico sino que vaya probando y evite el overfitting.
 
 <p align="center">
-  <img width="600" src=images/Modelado.png>
+  <img width="600" src="images/Modelado.png">
 </p>
 
 _________________________________________________________________________________________________________________________________________________________
@@ -261,20 +261,20 @@ ________________________________________________________________________________
 Se muestran a continuación los resultados detallados de las combinaciones de parámetros para cada algoritmo en busca del mejor accuracy, esta es la métrica más adecuada para medir la performance en caso de clasificaciones multiclase donde la data está perfectamente balanceada (misma cantidad de registros de cada categoría) y la matriz de confusión multicategórica es la más adecuada para su visualización. 
 
 <p align="center">
-  <img width="800" src=images/Resultados1.png>
+  <img width="800" src="images/Resultados1.png">
 </p>
 
 <p align="center">
-  <img width="800" src=images/Resultados2.png>
+  <img width="800" src="images/Resultados2.png">
 </p>
 
 Resumiendo, los mejores resultados fueron obtenidos por las combinaciones:
 
 <p align="center">
-  <img width="500" src=images/Resumen_resultados.png>
+  <img width="500" src="images/Resumen_resultados.png">
 </p>
 
 Siendo las matrices de confusión con mejores resultados las 3 siguientes:
 <p align="center">
-  <img width="800" src=images/Matrices.png>
+  <img width="800" src="images/Matrices.png">
 </p>
