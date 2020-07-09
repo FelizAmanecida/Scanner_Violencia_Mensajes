@@ -196,7 +196,7 @@ ________________________________________________________________________________
   ![ ](images/Trigramizado.png)
   
   
-  Se le aplicó el objeto phraser entrenado de cada nivel sucesivamente a la data de entrenamiento y test (tal como se muestra en la imagen) desde el nivel con mayor propensión a violencia hasta el de menor riesgo. Se les aplicó todos a fin de no sesgar el análisis aplicando a cada muestra solo las frases de su nivel pues se necesitaba data pre-procesada de la misma forma en las muestras de test que en las de train.
+  Se le aplicó el objeto phraser entrenado de cada nivel sucesivamente a la data desde el nivel con mayor propensión a violencia hasta el de menor riesgo. Se les aplicó todos a fin de no sesgar el análisis aplicando a cada muestra solo las frases de su nivel pues se necesitaba data pre-procesada de la misma forma en las muestras de test que en las de train.
 
 ![ ](images/Preproc_Autom_h_i.png)
 
